@@ -1,0 +1,17 @@
+<h1 class="animated fadeIn">{{ videojuego.nombre | uppercase }}</h1> <h5>{{ videojuego.lanzamiento }}</h5>
+<hr>
+<div class="row animated fadeIn fast">
+  <div class="col-md-4">
+    <img [src]="videojuego.img" class="img-fluid" [alt]="videojuego.nombre">
+    <br><br>
+  </div>
+  <div class="col-md-8">
+    <p>
+      {{ videojuego.descComp }}
+    </p>
+  </div>
+  <br><br><br><br><br>
+</div>
+<div align="center">
+  <a [routerLink]="['/videojuegos']" class="btn btn-outline-danger btn-block">Regresar</a>
+</div>

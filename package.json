@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
+    "5": "^0.0.1",
     "@angular/animations": "~13.2.0",
     "@angular/common": "~13.2.0",
     "@angular/compiler": "~13.2.0",
@@ -18,6 +19,11 @@
     "@angular/platform-browser": "~13.2.0",
     "@angular/platform-browser-dynamic": "~13.2.0",
     "@angular/router": "~13.2.0",
+    "@popperjs/core": "^2.11.5",
+    "@types/jquery": "^3.5.14",
+    "bootstrap4": "^0.0.1-security",
+    "jquery": "^1.12.4",
+    "popper.js": "^1.12.3",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

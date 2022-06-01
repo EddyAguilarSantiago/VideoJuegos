@@ -1,0 +1,5 @@
+<h1>Videojuegos  <i class="bi bi-controller"></i></h1>
+<hr>
+<div align="center" class="card-columns">
+  <app-videojuego-tarjeta (videojuegoSeleccionado)="verVideojuego( $event )" [videojuego]="foo" [index]="i"  *ngFor="let foo of videojuegos; let i = index"></app-videojuego-tarjeta>
+</div>
